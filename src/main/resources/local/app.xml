@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+	        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+	        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+	        http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-2.5.xsd"
+	        >
+
+	<!-- 
+	<bean id="userClient" class="${db_client}">
+		<constructor-arg index="0" type="java.lang.String" value="userPool"/>
+		<constructor-arg index="1" type="java.lang.String" value="${db_user_url}"/>
+	</bean>
+
+	<bean id="cityClient" class="${db_client}">
+		<constructor-arg index="0" type="java.lang.String" value="cityPool"/>
+		<constructor-arg index="1" type="java.lang.String" value="${db_city_url}"/>
+	</bean>
+
+	<bean id="itemClient" class="${db_client}">
+		<constructor-arg index="0" type="java.lang.String" value="itemPool"/>
+		<constructor-arg index="1" type="java.lang.String" value="${db_item_url}"/>
+	</bean>
+	
+	<bean id="unionClient" class="${db_client}">
+		<constructor-arg index="0" type="java.lang.String" value="unionPool"/>
+		<constructor-arg index="1" type="java.lang.String" value="${db_union_url}"/>
+	</bean>
+
+	<bean id="fightClient" class="${db_client}">
+		<constructor-arg index="0" type="java.lang.String" value="fightPool"/>
+		<constructor-arg index="1" type="java.lang.String" value="${db_fight_url}"/>
+	</bean>
+
+	<bean id="messageClient" class="${db_client}">
+		<constructor-arg index="0" type="java.lang.String" value="messagePool"/>
+		<constructor-arg index="1" type="java.lang.String" value="${db_message_url}"/>
+	</bean>
+	
+	<bean id="expeditionClient" class="${db_client}">
+		<constructor-arg index="0" type="java.lang.String" value="expeditionPool"/>
+		<constructor-arg index="1" type="java.lang.String" value="${db_expedition_url}"/>
+	</bean>
+
+	<bean id="userRepo" class="com.hoolai.sango.repo.${db_name}.UserRepoImpl">
+		<property name="client" ref="userClient" />
+	</bean>
+	-->
+	
+</beans>
