@@ -1,2 +1,2 @@
 # javaAmfFlash
-java communicate flash use amf protocol
+Java communicate Flash with AMF protocol
