@@ -8,7 +8,6 @@ import java.util.concurrent.TimeUnit;
 /**
  * 
  * 时间工具类
- * @author luzj
  *
  */
 public final class TimeUtil {
@@ -113,7 +112,6 @@ public final class TimeUtil {
     
     /**
      * time source
-     * @author luzj
      */
     public static abstract class TimeSource {
     	
@@ -175,7 +173,6 @@ public final class TimeUtil {
     
     /**
      * 使用相跟2010年1月1号0时0分0秒时相对的时间间隔
-     * @author luzj
      */
     public static final class DefaultStampTimeSource extends TimeSource {
 
@@ -244,7 +241,6 @@ public final class TimeUtil {
     /**
      * 使用独立线程自增加时间
      * 使用相跟2010年1月1号0时0分0秒时相对的时间间隔
-     * @author luzj
      */
     private static final class HackedStampTimeSource extends TimeSource {
 
@@ -281,7 +277,6 @@ public final class TimeUtil {
     
     /**
      * 使用独立线程自增加时间
-     * @author luzj
      */
     public static final class HackedStandardTimeSource extends TimeSource {
         

@@ -17,10 +17,7 @@ import javax.crypto.spec.SecretKeySpec;
 import org.apache.commons.codec.binary.Base64;
 
 /**
- * 
  * 字符串工具类
- * 
- * @author luzj
  */
 public class StringUtil {
 

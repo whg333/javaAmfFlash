@@ -5,11 +5,6 @@ import java.util.concurrent.TimeUnit;
 import com.why.amf.util.StringUtil;
 import com.why.amf.util.TimeUtil;
 
-/**
- * 
- * @author luzj
- *
- */
 public class AuthValidation {
 
     public static String AUTH_KEY = "authSecret";
@@ -39,9 +34,9 @@ public class AuthValidation {
         this.auth = auth.substring(0, index);
     }
 
-    private static final String prefix = "hoolai!@#$%^";
+    private static final String prefix = "whg333!@#$%^";
 
-    private static final String endfix = "!@$%^huaibeijing";
+    private static final String endfix = "!@$%^wanghg_java";
 
     private String generateAuth(long time) {
     	String generateAuth = StringUtil.encryptToMd5(prefix + userId + _ + time + endfix).substring(8, 24);

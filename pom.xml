@@ -165,7 +165,7 @@
 				<filtering>true</filtering>
 				<includes>
 					<include>applicationContext.xml</include>
-					<include>app_tencent.xml</include>
+					<include>app_whg333.xml</include>
 					<include>constant_file.properties</include>
 				</includes>
 			</resource>
@@ -194,22 +194,22 @@
 		<!-- by default, local_test profile will be used, if you want to use other 
 			profiles, please add -Denv=profileName to your mvn command -->
 		<profile>
-			<id>tencent</id>
-			<!-- 腾讯有朋友社区和qzone社区两个平台，分别对应platform_pengyou.properties和platform_qzone.properties 
+			<id>whg333</id>
+			<!-- 根据不同的平台，分别对应不同的platform_pengyou.properties和platform_qzone.properties 
 				服务端部署脚本应当用其中一个文件覆盖platform.properties，才能正常使用。默认是qzone社区。 -->
 			<activation>
 				<property>
 					<name>env</name>
-					<value>tencent</value>
+					<value>whg333</value>
 				</property>
 			</activation>
 			<properties>
-				<dir.name>tencent</dir.name>
+				<dir.name>whg333</dir.name>
 				<db.properties>${dir.name}/db.properties</db.properties>
 				<platform.properties>${dir.name}/platform.properties</platform.properties>
 				<repo.config>${dir.name}/app.xml</repo.config>
 				<jdbc.properties>${dir.name}/jdbc.properties</jdbc.properties>
-				<projectName>tencent</projectName>
+				<projectName>whg333</projectName>
 			</properties>
 		</profile>
 		<profile>

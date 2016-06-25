@@ -16,12 +16,6 @@ import org.apache.commons.logging.LogFactory;
 
 import com.why.amf.util.NetworkUtils;
 
-/**
- * responsibility.
- * 
- * @author Joseph
- * 
- */
 public class ExceptionHandler implements MethodInterceptor {
 
 	public static final int STATUS_ERROR = 1;

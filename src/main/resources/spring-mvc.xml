@@ -20,8 +20,7 @@
 	
 	<bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping"/>
 	<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"/>
-	 <bean id="viewResolver"
-        class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         	<property name="viewClass">
         		<value>org.springframework.web.servlet.view.JstlView</value>
 		    </property>

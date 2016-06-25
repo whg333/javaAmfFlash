@@ -4,13 +4,13 @@ package com.why.amf.util;
  *	令牌生成器
  */
 public class TokenProducer {
-    private static final String produceTokenAttachStr = "             sango@hoolai.com          "; 
+    private static final String produceTokenAttachStr = "             sango@whg333.com          "; 
     
-    private static final String worldBattleProduceTokenAttachStr = "           worldbattle.sango@hoolai.com          "; 
+    private static final String worldBattleProduceTokenAttachStr = "           worldbattle.sango@whg333.com          "; 
     
-    private static final String worldBattleProduceTokenAttachStrV2 = "           worldbattleV2.sango@hoolai.com          "; 
+    private static final String worldBattleProduceTokenAttachStrV2 = "           worldbattleV2.sango@whg333.com          "; 
     
-    private static final String weixinProduceTokenAttachStr = "           weixin.sango@hoolai.com          "; 
+    private static final String weixinProduceTokenAttachStr = "           weixin.sango@whg333.com          "; 
     
     public static String produceToken(String userIdStr) {
         return StringUtil.encryptToMd5(userIdStr + produceTokenAttachStr);
@@ -29,7 +29,7 @@ public class TokenProducer {
     }
     
     public static String produceLoginIdentifyingCodeToken(String userIdStr) {
-        return StringUtil.encryptToMd5(userIdStr + produceTokenAttachStr + "hoolai&*^*huai~@12"+TimeUtil.currentTimeMillis());
+        return StringUtil.encryptToMd5(userIdStr + produceTokenAttachStr + "whg333&*^*huai~@12"+TimeUtil.currentTimeMillis());
     }
     
     public static String produceWeiXinToken(){
